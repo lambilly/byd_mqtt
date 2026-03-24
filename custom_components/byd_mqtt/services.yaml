@@ -1,0 +1,3 @@
+reset_cache:
+  name: 重置缓存
+  description: 清除所有已缓存的数据，实体状态将重新加载。
