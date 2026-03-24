@@ -95,30 +95,26 @@ data: {}
 json
 {"bR":380,"bP":74,"bE":47.33,"tM":14157.1,"tempOut":24,"tempIn":26,"inHumidity":0,"wind":0,"doorLock":2,"mainBelt":1,"power":0,"compress":0,"frontDefrost":0,"rearDefrost":0,"speed":0,"motoSpeed":10,"wheelAngle":-77.5,"breakDeep":25,"accelerate":0,"lfTyreP":230,"rfTyreP":235,"lbTyreP":228,"rbTyreP":232,"lfTyreT":25,"rfTyreT":26,"lbTyreT":24,"rbTyreT":25,"windowLf":0,"windowRf":0,"windowLr":0,"windowRr":0,"windowMoon":0}
 ```
-### 字段说明（部分）：
-字段	说明
-bR	剩余续航 (km)
-bP	剩余电量 (%)
-bE	剩余能量 (kWh)
-tM	总里程 (km)
-tempOut	车外温度 (°C)
-tempIn	车内温度 (°C)
-inHumidity	车内湿度 (%)
-wind	风量档级
-doorLock	门锁状态：1=已锁，2=行驶中，其他=未锁
-mainBelt	主驾安全带：1=已系，其他=未系
-power	空调开关：1=开启，0=关闭
-compress	A/C 开关：1=开启，0=关闭
-frontDefrost	前除霜：1=开启，0=关闭
-rearDefrost	后除霜：1=开启，0=关闭
-speed	车速 (km/h)
-motoSpeed	电机转速 (rpm)
-wheelAngle	方向盘角度 (°)
-breakDeep	制动深度 (%)
-accelerate	油门深度 (%)
-lfTyreP 等	轮胎气压 (kPa)
-lfTyreT 等	轮胎温度 (°C)
-windowLf 等	车窗状态：0=关闭，非0=打开
+## 字段说明
+
+| 字段 | 说明/单位 |
+|------|-----------|
+| `inHumidity` | 湿度 (%) |
+| `wind` | 风量档级 |
+| `doorLock` | 门锁状态：1=已锁，2=行驶中，其他=未锁 |
+| `mainBelt` | 主驾安全带：1=已系，其他=未系 |
+| `power` | 空调开关：1=开启，0=关闭 |
+| `compress` | A/C 开关：1=开启，0=关闭 |
+| `frontDefrost` | 前除霜：1=开启，0=关闭 |
+| `rearDefrost` | 后除霜：1=开启，0=关闭 |
+| `speed` | 车速 (km/h) |
+| `motoSpeed` | 电机转速 (rpm) |
+| `wheelAngle` | 方向盘角度 (°) |
+| `breakDeep` | 制动深度 (%) |
+| `accelerate` | 油门深度 (%) |
+| `lfTyreP` 等 | 轮胎气压 (kPa) |
+| `lfTyreT` 等 | 轮胎温度 (°C) |
+| `windowLf` 等 | 车窗状态：0=关闭，非0=打开 |
 
 ### 故障排查
 
