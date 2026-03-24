@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BYD MQTT 配置",
+        "description": "请填写 MQTT 主题（默认 /carInfo）。注意：请确保已在 Home Assistant 中配置好 MQTT 集成。",
+        "data": {
+          "topic": "MQTT 主题"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "集成已配置"
+    },
+    "error": {
+      "invalid_topic": "主题无效"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "BYD MQTT 选项",
+        "data": {
+          "topic": "MQTT 主题"
+        }
+      }
+    }
+  },
+  "services": {
+    "reset_cache": {
+      "name": "重置缓存",
+      "description": "清除所有已缓存的数据，实体状态将重新加载。"
+    }
+  }
+}
