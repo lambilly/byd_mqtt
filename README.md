@@ -87,7 +87,7 @@
 ```yaml
 service: byd_mqtt.reset_cache
 data: {}
-
+```
 ##数据格式
 
 集成订阅的 MQTT 主题应收到如下格式的数据（支持多行，其中一行 JSON 包含所需字段）：
